@@ -1,5 +1,55 @@
 # Changelog
 
+## [2.0.0](https://github.com/MaiKuraki/RosettaUI/compare/ga.fuquna.rosettaui-v2.0.1...ga.fuquna.rosettaui-v2.0.0) (2026-06-03)
+
+
+### Features
+
+* Add ListViewOption.suppressAutoIndent ([0df33d2](https://github.com/MaiKuraki/RosettaUI/commit/0df33d2b544c59f52b06cdd8f752da8629e0c04a))
+* add UI.PopupMenuButton() ([7ee2ded](https://github.com/MaiKuraki/RosettaUI/commit/7ee2ded79cb0d1c8502557a4532e9d5c19cd449e))
+* added UICustom.RegisterPropertyAttributeFunc() ([1d4749c](https://github.com/MaiKuraki/RosettaUI/commit/1d4749cd0c055c6e737dd80b77acc33abe92fd66))
+* added UICustom.RegisterPropertyAttributeFunc() ([c83364a](https://github.com/MaiKuraki/RosettaUI/commit/c83364a350e7d83430d7dbf06661d1d6c719f333))
+* animation curve copy and paste support ([e4883a7](https://github.com/MaiKuraki/RosettaUI/commit/e4883a772d90e4d32c8020f54d46efa32d5b9115))
+* change default list item label to first string of class ([#39](https://github.com/MaiKuraki/RosettaUI/issues/39)) ([6901462](https://github.com/MaiKuraki/RosettaUI/commit/6901462069d6f841be0a5da6ea79c0dce2301321))
+* change disableKeyboardInputWhiltUITyping to disableKeyboardInputWhiltUITyping ([3bf744f](https://github.com/MaiKuraki/RosettaUI/commit/3bf744f66c6bab5ad4ad37e48ebd777884918ae8))
+* **experimental:** Element.SetFlexGrow()/SetFlexShrink() ([7896dff](https://github.com/MaiKuraki/RosettaUI/commit/7896dff9ccdcbcd4316bea8bbf68275f6204b473))
+* fit curve, snap points ([eb645c6](https://github.com/MaiKuraki/RosettaUI/commit/eb645c65ce0306f474ca944d24bbbe45565fbad4))
+* MouseButton can now be specified in UI.Popup(). ([d9121d1](https://github.com/MaiKuraki/RosettaUI/commit/d9121d1cdde334c69e46296f4f40563dcabb8ed6))
+* point mode, tangent mode ([84ba70f](https://github.com/MaiKuraki/RosettaUI/commit/84ba70f687114730512c32c965164c2f55aee315))
+* render graph in curve editor ([d1f4d06](https://github.com/MaiKuraki/RosettaUI/commit/d1f4d0630af1aaa7bcfacffff10f9b0b69589811))
+* SetFlexBasis, SetFlexWrap ([7def7ee](https://github.com/MaiKuraki/RosettaUI/commit/7def7ee32797dceee50212ef21b12b25fe509903))
+* SetFlexBasis, SetFlexWrap ([ad64e40](https://github.com/MaiKuraki/RosettaUI/commit/ad64e4078c6200dfd2f67817c69a4ebfa513eab7))
+* Update UI.ScrollView to treat received size as MaxWidth/MaxHeight ([b392fc7](https://github.com/MaiKuraki/RosettaUI/commit/b392fc79eff694787e998ffb990f3c1e7acfd57d))
+* zoom each axis ([2bc13e7](https://github.com/MaiKuraki/RosettaUI/commit/2bc13e7b672ecef48e605e42498167068aaca7f3))
+
+
+### Bug Fixes
+
+* add conditional dropdown handling for Unity 6000.3 and newer ([9196293](https://github.com/MaiKuraki/RosettaUI/commit/9196293684191c864036f648f2c8e7d40d629c79))
+* Add keywords to package.json to get hits in npmjs search ([31e8ead](https://github.com/MaiKuraki/RosettaUI/commit/31e8ead43ba3fd52be865345cf5c4dd339c49aa5))
+* bug CubicBezier.CalcMinMaxY() ([cc07cd0](https://github.com/MaiKuraki/RosettaUI/commit/cc07cd0bbe88f45d6ddaf211fc5490f4f2f7e07d))
+* change cb.SetGlobal to mat.Set, tiny bug, code format ([d7b41bc](https://github.com/MaiKuraki/RosettaUI/commit/d7b41bcf56b132117c3eb0ab539556b2a04878d5))
+* ClipBoardParse_Generic error when same name but different type ([fdbd36e](https://github.com/MaiKuraki/RosettaUI/commit/fdbd36eee3d88a823be9cbd2b1e8429867c4f527))
+* Error in copy and paste menu when right clicking on a type without parameterless constructor ([dec40c4](https://github.com/MaiKuraki/RosettaUI/commit/dec40c472f59c89697220b67ecca4b0fa1c3411f))
+* Error when right-clicking on a nested list ([090bae6](https://github.com/MaiKuraki/RosettaUI/commit/090bae6c9d86a16042ecf41653ce1dfe3e67b241))
+* Sometimes AnimationCurve does not display. ([f28262e](https://github.com/MaiKuraki/RosettaUI/commit/f28262e23aefffe8d4ed5153107715dc47889354))
+* The AddRemove menu is not displayed when the List is fixedSize. ([ca01c8a](https://github.com/MaiKuraki/RosettaUI/commit/ca01c8a6fce35ad1f9077e606bde50f5a053480e))
+* typo ([251aea7](https://github.com/MaiKuraki/RosettaUI/commit/251aea7474e19272a0967288ac08c048f896ec17))
+* Undo in Window opened by WindowLauncher was always IsAvailable==false ([638cf2d](https://github.com/MaiKuraki/RosettaUI/commit/638cf2d3bfd3c621a94a08b17f312b4e0377050c))
+* view fix bug etc. ([cfb9f48](https://github.com/MaiKuraki/RosettaUI/commit/cfb9f4808c5d5e2a50066dac0331ecaadda91e33))
+* When right-clicking to add an element to the list, the previous element is deleted when Undo is performed. ([9549374](https://github.com/MaiKuraki/RosettaUI/commit/95493744ef287bee3ef341993ac30bc9c34616e1))
+
+
+### Performance Improvements
+
+* remove UI.DynamicElementIfObjectFound() every frame allocation ([880573f](https://github.com/MaiKuraki/RosettaUI/commit/880573f2c0039825f3a7b4d613b66390b06df6d2))
+* remove UI.WindowLauncher() every frame allocation ([e827271](https://github.com/MaiKuraki/RosettaUI/commit/e827271e982fffc024d55bdc5ae0ee03ec579d3d))
+
+
+### Miscellaneous Chores
+
+* release 2.0.0 ([ffb3837](https://github.com/MaiKuraki/RosettaUI/commit/ffb3837b7e89f04ab524909b76434b9911387f90))
+
 ## [2.0.1](https://github.com/fuqunaga/RosettaUI/compare/ga.fuquna.rosettaui-v2.0.0...ga.fuquna.rosettaui-v2.0.1) (2026-05-07)
 
 
